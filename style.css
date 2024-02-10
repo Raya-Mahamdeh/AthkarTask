@@ -1,0 +1,52 @@
+body{
+    background-image:url("./26083.jpg") ;
+    background-size:cover;   
+}
+.container{
+    display: flex;
+    justify-content: end;
+    margin-top: 25%;
+
+}
+.row .button-group{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.first-button,.second-button,
+.third-button,.fourth-button{
+    background-color: #D69D55;
+    padding: 50px 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+.first-button button,.second-button button
+,.third-button button,.fourth-button button{
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    padding: 10px 20px;
+    background-color: #002424;
+    color: white;
+}
+.first-button p , .second-button p ,
+ .third-button p,.fourth-button p{
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    padding: 10px 20px;
+    background-color: white;
+    color: #002424;
+}
+
